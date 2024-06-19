@@ -11,7 +11,7 @@ const Title = styled.h1`
 const ProductList = () => {
   return (
     <Container>
-      <Title>Your Favorite Books</Title>
+      <Title>The Books You Love</Title>
       <Products/>
       <Newsletter />
       <Footer />

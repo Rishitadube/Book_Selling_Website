@@ -35,14 +35,6 @@ const TopButton = styled.button`
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
-// const TopTexts = styled.div`
-//   ${mobile({ display: "none" })}
-// `;
-// const TopText = styled.span`
-//   text-decoration: underline;
-//   cursor: pointer;
-//   margin: 0px 10px;
-// `;
 
 const Bottom = styled.div`
   display: flex;
@@ -152,7 +144,7 @@ const Cart = () => {
     <Container>
       <Announcement />
       <Wrapper>
-        <Title>YOUR BAG</Title>
+        <Title>YOUR SHOPPING BAG</Title>
         <Top>
           <Link to="/">
           <TopButton>CONTINUE SHOPPING</TopButton></Link>
@@ -166,10 +158,10 @@ const Cart = () => {
                 <Image src={product.img}/>
                 <Details>
                   <ProductName>
-                    <b>Book Name - </b> {product.title}
+                    <b>Book Name : </b> {product.title}
                   </ProductName>
                   <ProductId>
-                    <b>Book Id:</b> {product.id}
+                    <b>Book Id : </b> {product.id}
                   </ProductId>
                 </Details>
               </ProductDetail>
