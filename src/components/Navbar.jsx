@@ -90,8 +90,14 @@ const Navbar = () => {
           <Link to="/register">
             <MenuItem>REGISTER</MenuItem>
           </Link>
+          <Link to="/register">
+            <MenuItem>NEW USER</MenuItem>
+          </Link>
           <Link to="/signin">
             <MenuItem>SIGN IN</MenuItem>
+          </Link>
+          <Link to="/signin">
+            <MenuItem>ALREADY A MEMBER</MenuItem>
           </Link>
           <a href="http://127.0.0.1:5000">
             <MenuItem>RECOMMEND</MenuItem>
