@@ -90,7 +90,7 @@ const Footer = () => {
       <Left>
         <Logo>BOOKSHELF</Logo>
         <Desc>
-          All categories of books you love are just one click away from you, dont think too much just go for it. We provide the best quality of books. 
+          All categories of books you love are just one click away from you, don't think too much just go for it. We provide the best quality of books. 
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
